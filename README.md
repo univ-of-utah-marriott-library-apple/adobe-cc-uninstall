@@ -311,11 +311,11 @@ The script is designed for lab and shared-use Macs where Adobe apps may have bee
 
 For teams that want to reuse this workflow outside of an existing Jamf script library, the Marriott Library script is published in:
 
-`https://github.com/univ-of-utah-marriott-library-apple/adobe-cc-uninstall`
+[univ-of-utah-marriott-library-apple/adobe-cc-uninstall](https://github.com/univ-of-utah-marriott-library-apple/adobe-cc-uninstall)
 
 Direct script URL:
 
-`https://github.com/univ-of-utah-marriott-library-apple/adobe-cc-uninstall/blob/main/adobe_cc_app_uninstaller.sh`
+[adobe_cc_app_uninstaller.sh](https://github.com/univ-of-utah-marriott-library-apple/adobe-cc-uninstall/blob/main/adobe_cc_app_uninstaller.sh)
 
 Using a stable repo name and file path makes policy docs, runbooks, and automation references easier to maintain.
 
