@@ -21,7 +21,7 @@ At scale, the stakes are operational, not just cosmetic. A lab refresh can stall
 
 ## A Short History of Adobe Uninstall on macOS
 
-![History of Adobe uninstall on macOS](images/adobe-uninstall-history.svg)
+![History of Adobe uninstall on macOS](images/adobe_uninstall_changed_in_layers.png)
 
 Adobe uninstall methods evolved in phases, not as one stable enterprise model. Each phase left behind tooling, assumptions, and old installs that admins still have to account for.
 
@@ -65,7 +65,7 @@ The lesson is not that Adobe uninstall is impossible. It is that Adobe uninstall
 
 ## The Adobe Uninstall Tool
 
-![Adobe uninstall tool selection flow](images/adobe-tool-selection-flow.svg)
+![Adobe uninstall tool selection flow](images/choose_the_uninstall_path_cleaner_tool_is_follow_up_repair.png)
 
 Adobe's current enterprise documentation leads with the command-line Adobe uninstall tool, whose executable is `AdobeUninstaller`, from **Adobe Admin Console > Packages > Tools** for Creative Cloud products.
 
@@ -117,7 +117,7 @@ The Cleaner Tool can generate XML and run in silent workflows, so it can be temp
 
 ## Base Versions Are the Quiet Failure Point
 
-![Adobe base-version evidence workflow](images/adobe-base-version-evidence.svg)
+![Adobe base-version evidence workflow](images/base_version_trust_the_package_evidence.png)
 
 Adobe uninstall commands often need a base version. That value is not always the same as the full app version shown in Finder, Jamf inventory, `CFBundleShortVersionString`, or Adobe's marketing release notes.
 
@@ -187,7 +187,7 @@ The important distinction is that Adobe's reference page is useful for identifyi
 
 In Suspicious Package, a good visual check is to select the block from `<SAPCode>` through `<productVersion>` for the target app, like this:
 
-![Suspicious Package search for KBRG showing the matching Bridge baseVersion in optionXML.xml](images/adobe-suspicious-package-kbrg-baseversion.png)
+![Suspicious Package search for KBRG showing the matching Bridge baseVersion in optionXML.xml](images/suspicious_package_search_for_sapcode_to_find_versionbase.png)
 
 ```xml
 <HDMedia>
