@@ -1,6 +1,6 @@
 # Uninstalling Adobe on macOS: A Character-Building Exercise
 
-![Adobe Creative Cloud uninstall workflow overview](images/adobe-uninstall-hero.svg)
+![Adobe Creative Cloud uninstall workflow overview](images/creative_cloud_cleanup_not_one_app_or_uninstaller.png)
 
 Uninstalling Adobe Creative Cloud apps on macOS has improved in pieces, but it has never become one clean, consistent lifecycle. For MacAdmins, that means the real problem is rarely "how do I delete Photoshop?" It is usually a messier question: which Adobe tool applies to this app, this license model, this architecture, this install source, and this version history?
 
